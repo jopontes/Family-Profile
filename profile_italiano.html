@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italiano - Jonatas & Marcela Profile</title>
+    <!-- Google Fonts for elegant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #fcfaf8;
+            --container-bg: #ffffff;
+            --text-color: #2c2c2c;
+            --muted-text: #666666;
+            --accent-color: #8c7b68;
+            --border-color: #eaeaea;
+            --highlight-bg: #f9f8f5;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: var(--text-color);
+            line-height: 1.6;
+            font-size: 14px;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .pdf-page {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .pdf-label {
+            text-align: right;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--muted-text);
+            margin-bottom: 20px;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .hero-photo-static {
+            width: 100%;
+            height: 350px;
+            background-image: url('Scan 1_Original.jpg');
+            background-size: cover;
+            background-position: center 30%;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header-title {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-title h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .header-title p {
+            font-size: 1.2rem;
+            color: var(--muted-text);
+        }
+
+        section {
+            margin-bottom: 30px;
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+            display: inline-block;
+            background-color: var(--highlight-bg);
+            padding: 6px 14px;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-card {
+            background: var(--highlight-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .contact-card h3 {
+            margin-bottom: 12px;
+        }
+
+        .contact-row {
+            margin-bottom: 10px;
+        }
+
+        .contact-card .phone-type {
+            display: block;
+            font-size: 10px;
+            text-transform: uppercase;
+            color: var(--muted-text);
+            font-weight: 700;
+        }
+
+        .contact-card .phone-number,
+        .contact-card .email-link {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        @media print {
+            .pdf-page {
+                padding: 0;
+            }
+
+            body {
+                background: #fff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pdf-page">
+        <div class="pdf-label">Italiano</div>
+
+        <div class="hero-photo-static"></div>
+
+        <div class="header-title">
+            <h1>Jonatas & Marcela</h1>
+            <p>Presentazione Profilo Inquilini</p>
+        </div>
+
+        <main>
+            <section>
+                <h2>Chi Siamo</h2>
+                <p>Ciao! Mi chiamo <strong>Jonatas Pontes</strong> e mia moglie si chiama <strong>Marcela
+                        Vidra</strong>. Siamo sposati da cinque anni, io ho 39 anni e Marcela ne ha 31. Viviamo in
+                    Italia da un anno e mezzo.</p>
+                <p>Entrambi proveniamo da famiglie di immigrati cresciute in Brasile: la mia famiglia italiana viene dal
+                    Veneto, quindi ho la <strong>doppia cittadinanza</strong> brasiliana e italiana, mentre la famiglia
+                    di Marcela è originaria della Repubblica Ceca.</p>
+            </section>
+
+            <section>
+                <h2>Il Nostro Lavoro</h2>
+                <p><strong>Jonatas:</strong> Sono architetto di formazione, ma lavoro nella produzione cinematografica,
+                    scenografia e direzione artistica da oltre 15 anni. Attualmente lavoro come Content Manager presso
+                    CV Christian Vision, un'organizzazione globale con sede nel Regno Unito. Lavoro in CV da 5 anni, con
+                    ruoli dirigenziali. Dado che il mio lavoro è al 100% da remoto, abbiamo la flessibilità di vivere in
+                    Italia.</p>
+                <p><strong>Marcela:</strong> È una cantante d'opera. È laureata in canto lirico e lavorava già in
+                    Brasile esibendosi nel teatro più importante della nostra città. Lo scorso anno è entrata in
+                    un'accademia d'opera a Martina Franca (Puglia) e ha lavorato con continuità, cantando anche al
+                    rinomato Festival della Valle d'Itria.</p>
+            </section>
+
+            <section>
+                <h2>I Nostri Progetti: Perché Firenze</h2>
+                <p>Il nostro piano è sempre stato spostarci al nord per essere più vicini ai professionisti del settore
+                    musicale che lei conosce. Il suo prossimo lavoro sarà probabilmente a Firenze, quindi stiamo
+                    cogliendo l'occasione per fare questo trasferimento.</p>
+                <p>Arriveremo a Firenze il <strong>14 del mese</strong>, quindi da quella data in poi saremo
+                    completamente disponibili per visitare l'appartamento.</p>
+            </section>
+
+            <section>
+                <h2>Reddito e Affidabilità</h2>
+                <p>Il mio stipendio mensile fisso come Content Manager è di <strong>5.000 euro</strong>. Poiché il
+                    lavoro di Marcela è a progetto, le sue entrate sono occasionali, ma abbiamo la garanzia e la
+                    tranquillità della mia solida base fissa lavorativa.</p>
+            </section>
+
+            <section>
+                <h2>La Nostra Cagnolina: Chloe</h2>
+                <p>Abbiamo una piccola cagnolina di nome <strong>Chloe</strong> di 10 anni (Spitz giapponese). È
+                    estremamente amichevole, tranquilla e non abbaia. Una rassicurazione importante: <strong>non fa mai
+                        i suoi bisogni in casa</strong>, mantenendo l'appartamento sempre perfettamente pulito.</p>
+            </section>
+
+            <section>
+                <h2>Contatti</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Jonatas</h3>
+                        <div class="contact-row">
+                            <span class="phone-type">WhatsApp</span>
+                            <span class="phone-number">+55 11 98531 2223</span>
+                        </div>
+                        <div class="contact-row">
+                            <span class="phone-type">Italia</span>
+                            <span class="phone-number">+39 351 4170957</span>
+                        </div>
+                        <div class="contact-row">
+                            <span class="phone-type">Email</span>
+                            <span class="email-link">contact@jonataspontes.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Marcela</h3>
+                        <div class="contact-row">
+                            <span class="phone-type">WhatsApp</span>
+                            <span class="phone-number">+55 11 98835 3035</span>
+                        </div>
+                        <div class="contact-row">
+                            <span class="phone-type">Italia</span>
+                            <span class="phone-number">+39 339 1553275</span>
+                        </div>
+                        <div class="contact-row">
+                            <span class="phone-type">Email</span>
+                            <span class="email-link">contato@marcelabueno.mus.br</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
